@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Rest" >
+    <test name="Restful Test">
+
+        <classes>
+            <class name="com.weborders.RestfullTest.Name"></class>
+        </classes>
+
+    </test>
+
+</suite>

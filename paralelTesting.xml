@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Paralelll Testing" verbose="2"  parallel="tests">
+
+    <test name="Login test using Firefox">
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+            <class name="com.weborders.tests.functional_tests.PositiveTest"></class>
+        </classes>
+    </test>
+
+
+    <test name="Login test using Chrome">
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+            <class name="com.weborders.tests.functional_tests.OrderPageTest"></class>
+        </classes>
+    </test>
+</suite>

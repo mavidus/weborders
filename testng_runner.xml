@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="WebOrders" >
+
+<test name="Weborders Automated Tests">
+
+    <classes>
+        <class name="com.weborders.tests.functional_tests.NegativeTest"></class>
+        <class name="com.weborders.tests.functional_tests.PositiveTest"></class>
+    </classes>
+
+</test>
+
+</suite>
